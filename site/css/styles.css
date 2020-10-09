@@ -150,3 +150,20 @@ html {
   font-family: 'Comfortaa', cursive;
   margin-top: 30px;
 }
+
+.owl-carousel__testemunhas.owl-carousel .owl-nav button.owl-next{
+  width: 82px;
+  height: 82px;
+  background: url('../imagens/seta-direita.png') no-repeat 0 0;
+}
+
+.owl-carousel__testemunhas.owl-carousel .owl-nav button.owl-prev{
+  width: 82px;
+  height: 82px;
+  background: url('../imagens/seta-esquerda.png') no-repeat 0 0;
+}
+
+.owl-prev span,
+.owl-next span{
+  display: none;
+}
