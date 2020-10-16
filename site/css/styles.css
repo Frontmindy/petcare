@@ -151,10 +151,30 @@ html {
   margin-top: 30px;
 }
 
+.owl-carousel__testemunhas{
+  position: relative;
+  padding: 0 100px;
+  box-sizing: border-box;
+  margin-top: 150px;
+}
+
+.owl-carousel__testemunhas .owl-nav{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 0;
+}
+
+.owl-carousel__testemunhas.owl-carousel .owl-nav button{
+  position: absolute;
+  transform: translateY(-50%);
+}
+
 .owl-carousel__testemunhas.owl-carousel .owl-nav button.owl-next{
   width: 82px;
   height: 82px;
   background: url('../imagens/seta-direita.png') no-repeat 0 0;
+  right: 0;
 }
 
 .owl-carousel__testemunhas.owl-carousel .owl-nav button.owl-prev{
@@ -163,7 +183,66 @@ html {
   background: url('../imagens/seta-esquerda.png') no-repeat 0 0;
 }
 
+.owl-carousel__testemunhas.owl-carousel .owl-item img{
+  width: auto;
+}
+
 .owl-prev span,
 .owl-next span{
   display: none;
+}
+
+.testemunha{
+  -webkit-box-shadow: 0px 4px 13px 0px rgba(50,32,206,0.47);
+  -moz-box-shadow: 0px 4px 13px 0px rgba(50,32,206,0.47);
+  box-shadow: 0px 4px 13px 0px rgba(50,32,206,0.47);
+  margin: 20px 15px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+.testemunha__box--laranja{
+  background: url('../imagens/bg-laranja.png') no-repeat 0 0;
+}
+
+.testemunha__box--azul{
+  background: url('../imagens/bg-azul.png') no-repeat 0 0;
+}
+
+.testemunha__box{
+  height: 280px;
+  background-size: cover;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.testemunha__imagem{
+  width: 73px;
+  height: 73px;
+  background-color: blue;
+  overflow: hidden;
+  border-radius: 40px;
+  -webkit-border-radius: 40px;
+  -moz-border-radius: 40px;
+}
+
+.testemunha__nome{
+  font-family: 'Comfortaa', cursive;
+  margin: 20px 0 25px 0;
+  display: block;
+}
+
+.testemunha__texto{
+  font-size: 14px;
+  line-height: 20px;
 }
